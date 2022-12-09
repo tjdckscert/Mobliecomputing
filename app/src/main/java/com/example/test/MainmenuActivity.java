@@ -40,7 +40,7 @@ public class MainmenuActivity extends AppCompatActivity {
         Intent getintent = getIntent();
         String userID = getintent.getStringExtra("userID");
         setTitle("Login : "+userID);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);//
         ListView listView = (ListView)findViewById(R.id.listView);
         String p_number = "";
         String p_name = "";
